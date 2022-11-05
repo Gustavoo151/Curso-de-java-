@@ -1,0 +1,57 @@
+Vantagens da POO:
+    -> Reutilização de código
+    -> Reflete o mundo real
+
+
+Conceitos:
+    -> Classes
+        -> Descrição de um grupo de objetos
+            O que é uma classe:
+            -> Nome da Classes. 
+                Exemplo (classe Cachorro)
+            -> Conjuto de atributos (Descrição).
+                Exemplo:
+                    Altura, pesso, idade
+            -> Conjuto de métodos (Comportamento)
+
+
+    -> Objetos
+        -> instância de classe
+            instância é quando já temos um objeto (instância - Pitbull)
+                -> Exemplo:
+                    Grupo: Pitbull
+                    Porte: Grande
+                    Altura: 55 cm - 70 cm
+                    Peso: 38kg - 60kg
+                    Temperamento: Feroz
+                    Nível de atividade: Altura
+                    Tempo de vida: 10 - 12 anos
+                    Inteligênicia: Esperto
+
+    Comportamento Canino (um Comportamento é a mesma coisa coisa com se fosse uma classe)
+    -> Métodos (metodos são verbos ação [Geralmente métodos são ações que temos na nossa classe, são o Comportamento de define aquela classe])
+        -> Tipos de métodos da classe Cachorro
+            -> Latir
+            -> Passear
+            -> Comer
+            -> dormir
+            -> Treinar
+            -> Brincar
+
+    -> Herança
+        -> Permite Reutilização da estrutura e do Comportamento de uma classe
+        Exemplo:
+                                <-Animal->
+                    <-Mamífero->          Réptil->
+            <-felino        Canino->            Cobra
+        Trigre                      Gato
+
+    -> Polimorfismo
+        ->Habilidade de variáveis terem "mais de um tipo"
+        EXEMPLO:
+            ->Emitir som
+              ->Cachorro: Late
+              ->Gato: Mia
+              ->Vaca: Berra
+              ->Cobra: Sibila
+              ->Lobo: Ruiva

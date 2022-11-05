@@ -1,0 +1,21 @@
+Capítulo 3 - Introdução a classe, objetos, metodos e strings
+
+Declaraçõa de classe:
+    -> Cada declaração de classe public deve ser armazenada em um arquivo com o mesmo nome que a classe e termina com a extenção .java, do contrário vai ocorrer um erro de compilação.
+    
+    -> Cada declaração de classe contém a palavra-chace class seguida imediantemento com o nome da classe.
+
+Indentficadore e nomeação:
+    -> Por convenção, os nome de classe começam com uma letra maiúscula, e de métodos e de variáveis com letra minúscula.
+
+Varável de instância name:
+    -> Um objeto tem atributos, implementados como variáveis de instância que o acompanham ao longo de sua vida. As variáveis de instância existem antes que os métodos sejam chamados de um objeto, enquanto eles são executados e depois que a execurção dele foi concluída. Cada objeto (instância) da classe tem sua própria cópia das cariáveis de instâncias da classe.
+
+    -> Uma classe normalmente contém um ou mais métodos que manipulam as variáveis de instância pertencentes aos objetos particulares dela.
+
+    -> variáveis de instância são declaradas dentro de uma declaraçãoi de classe, mas fora do corpo dos métodos da class.
+    EXEMPLO:
+        private String name; // Varável de instância
+
+Pág 58:
+    Modificadores de acesso public private
