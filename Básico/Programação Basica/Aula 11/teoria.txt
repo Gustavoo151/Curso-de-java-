@@ -1,0 +1,74 @@
+Tipos primitivos:
+    -> Tipos inteiros
+    -> Tipos ponto flutuante
+    -> Tipo Char
+    -> Tipo Boolean
+    -> Literais
+
+____________________________________________________________
+|         Tipos Primitivos                                  |
+|                |                                          |
+|        |-------------------|                              |
+|     Boolean             Números                           |
+|                            |                              |
+|                |---------------------------|              |
+|             Inteiro                 Ponto Flutuante       |
+|                |                           |              |
+|     byte, short, int, log, char         float, double     |
+|___________________________________________________________|
+
+
+Inteiros:
+                bits     Intervalo Valores                              
+    -> byte  |   8   |  -128 a 127                                              |  -(2^7) a 2^7 - 1      // Menos usado
+    -> short |   16  |  -32.768 a 32.767                                        |  -(2^15) a 2^15 - 1    // Menos usado   
+    -> int   |   32  |  -2.147.483.648 a -2.147.483.647                         |  -(2^31) a 2^31 - 1    // Mais usado
+    -> long  |   64  |  -9.223.372.036.854.775.808 a -9.223.372.036.854.775.807 |  -(2^63) a 3^63 - 1    // Mais usado
+
+
+Pontos flutuante:
+                Tamanho(bits)
+    -> float   |    32  // Muito difícil de ser usando
+    -> double  |    64   // Mais usado 
+
+    flaot saldo1 = 100.30f;   // Sempre para número de ponto flutuante em java, temos que colocar um f no final do número float
+    double saldo2 = 100.30;   // Não precisa usar o f no fim do número (por isso o double é mais usado)
+
+char:
+    -> Uma letra qualquer do alfabeto (Ou número da tabela ascii)
+
+    char o = "o";
+    char i = "i";
+
+Boolean:
+    -> verdadeiro = true
+    -> falso = false
+
+    Boolean verdadeiro = true;
+    Boolean falso = false;
+
+Literais:
+    Por padrão os números já são int
+    Por padrão os números de ponto flutuante já são double
+
+    int idade1 = 20;
+    long idade2 = 20l;  // Para deixar explicito que é um long basta colocar um l após o número
+
+    obs:
+        -> double e float aceitam notação científica
+        EXEMPLO:
+            double d1 = 123.4
+            double d2 = 1.234e2;  // Mesmo valor que d1, mas em notação científica
+
+            float f1 = 123.4f
+    
+Literais:
+    -> Hexadecimais
+    -> Octais
+    -> Binários
+
+    int decVal = 26;
+    int haxVal = 0x1a;
+    int octVal = 032;
+    int binVal = 0b11010;
+

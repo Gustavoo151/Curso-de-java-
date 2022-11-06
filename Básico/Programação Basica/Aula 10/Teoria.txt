@@ -1,0 +1,12 @@
+Aula 10 - Introdução a variáveis
+
+Convenção Nomeclatura
+    -> O primeiro caractere de uma variável sempre é bom começar com latra minúscula
+    
+Tipos primitivos
+    -> int
+    -> float
+    -> char
+
+Convenção de pacotes em java
+    -> Tudo em letra minúscula
