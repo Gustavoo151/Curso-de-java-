@@ -1,0 +1,8 @@
+Como ler dados do teclado
+ -> Ler um linha inteira
+ -> Ler tipo de dado especifico
+
+Para ler um dados em ja vamos usar a classe Scanner 
+   --> Scanner scan = new Scanner(System.in);
+
+A api do java está organizada em várias pasta e por devemos dizer ao programa java que a gente quer ultizar essa classe e a maneira que a gente faz isso é ante da declaração da nossa classe colocar o import que é a maneira dizer para que eu quero ultilizar aquela classe no código
