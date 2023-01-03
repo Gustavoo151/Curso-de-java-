@@ -17,6 +17,5 @@ public class LeituraDadosTeclado{
         System.out.println("NextLine: " + nome);
         System.out.println("NextInt: " + idade);
         System.out.println("NextDouble: " + altura);
-
     }
 }
